@@ -1,3 +1,10 @@
+CREATE TABLE estado 
+(
+    id   INTEGER PRIMARY KEY NOT NULL,
+    nome VARCHAR(19) NOT NULL,
+    uf   VARCHAR(2)  NOT NULL
+);
+
 INSERT INTO estado VALUES(11,'Rondônia','RO');
 INSERT INTO estado VALUES(12,'Acre','AC');
 INSERT INTO estado VALUES(13,'Amazonas','AM');

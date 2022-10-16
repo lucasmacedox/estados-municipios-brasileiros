@@ -2,9 +2,8 @@ CREATE TABLE municipio
 (
     id          INTEGER PRIMARY KEY NOT NULL,
     nome        VARCHAR(33) NOT NULL,
-    cod_ibge    VARCHAR(7) NOT NULL,
-    estado_id   INTEGER NOT NULL
-
+    cod_ibge    VARCHAR(7)  NOT NULL,
+    estado_id   INTEGER     NOT NULL
 );
 
 INSERT INTO municipio VALUES(1200013,'ACRELANDIA','1200013',12);
